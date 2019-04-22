@@ -87,17 +87,24 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background: #191818; /* Original/My Color */
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
     /*
     All anchors inside the menu should be styled like this.
     */
+    /* Happy Accident */
+    /* Custom Color */
     #menu a {
-        color: #999;
+        color: #1AF4FE;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
+    }
+
+    /* Alternating Blue and Pink colors attempt */
+    #menu a :nth-child(odd) {
+        color: #F31DAE;
     }
 
     /*
