@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 Nov 2019 23:59:59 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 17:30:00 +0200</lastBuildDate>
     
 	<atom:link href="https://thiskurt.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>Short Story/Flash Fiction</title>
       <link>https://thiskurt.github.io/tags/short-story/flash-fiction/</link>
-      <pubDate>Fri, 01 Nov 2019 23:59:59 +0200</pubDate>
+      <pubDate>Sat, 09 Nov 2019 17:30:00 +0200</pubDate>
       
       <guid>https://thiskurt.github.io/tags/short-story/flash-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Fight</title>
+      <link>https://thiskurt.github.io/tags/the-fight/</link>
+      <pubDate>Sat, 09 Nov 2019 17:30:00 +0200</pubDate>
+      
+      <guid>https://thiskurt.github.io/tags/the-fight/</guid>
       <description></description>
     </item>
     

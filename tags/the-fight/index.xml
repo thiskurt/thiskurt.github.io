@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Fight on @thiskurt</title>
+    <link>https://thiskurt.github.io/tags/the-fight/</link>
+    <description>Recent content in The Fight on @thiskurt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 09 Nov 2019 17:30:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://thiskurt.github.io/tags/the-fight/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Rematch</title>
+      <link>https://thiskurt.github.io/post/therematch/</link>
+      <pubDate>Sat, 09 Nov 2019 17:30:00 +0200</pubDate>
+      
+      <guid>https://thiskurt.github.io/post/therematch/</guid>
+      <description>Note: First read The Fight.
+Beyond all odds The Kid had gone the distance. It had cost him is organs being turned to goop to feed The Beast&amp;rsquo;s hideous children, but he had gone the full distance.
+Beyond even those odds The Kid had somehow survived the fight. He needed a complete organ transplant after all The Beast&amp;rsquo;s spawn were removed, but he had lived, he was after all a fighter.</description>
+    </item>
+    
+    <item>
+      <title>The Fight</title>
+      <link>https://thiskurt.github.io/post/thefight/</link>
+      <pubDate>Mon, 01 Jul 2019 21:00:00 +0200</pubDate>
+      
+      <guid>https://thiskurt.github.io/post/thefight/</guid>
+      <description>It had been The Kid’s dream ever since he started boxing, his therapist had suggested it as a way to work out his anger, his anger about himself, his situation and the world, it was just supposed to be an outlet, but as soon as he picked up those gloves he had dreamed of a shot at the title.
+He never made it far enough to have a chance for that dream to come through.</description>
+    </item>
+    
+  </channel>
+</rss>
