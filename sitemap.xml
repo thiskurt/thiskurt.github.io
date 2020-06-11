@@ -1,34 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://thiskurt.github.io/</loc>
-    <lastmod>2019-11-01T23:59:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/november/allhallowseve/</loc>
-    <lastmod>2019-11-01T23:59:59+02:00</lastmod>
+    <lastmod>2020-06-11T22:15:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/post/</loc>
-    <lastmod>2019-11-01T23:59:59+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-06-11T22:15:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thiskurt.github.io/tags/short-story/flash-fiction/</loc>
-    <lastmod>2019-11-01T23:59:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://thiskurt.github.io/post/bureauofreligioussacrifice/</loc>
+    <lastmod>2020-06-11T22:15:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/tags/</loc>
+    <lastmod>2019-11-09T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiskurt.github.io/tags/the-fight/</loc>
+    <lastmod>2019-11-09T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiskurt.github.io/post/therematch/</loc>
+    <lastmod>2019-11-09T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thiskurt.github.io/post/allhallowseve/</loc>
     <lastmod>2019-11-01T23:59:59+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -47,105 +53,22 @@
   </url>
   
   <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-17/</loc>
-    <lastmod>2019-05-14T19:45:00+02:00</lastmod>
+    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie/</loc>
+    <lastmod>2019-04-22T16:01:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/tags/local-royal-guards/</loc>
-    <lastmod>2019-05-14T19:45:00+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-04-22T16:01:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/tags/ruritanian-lowlands/</loc>
-    <lastmod>2019-05-14T19:45:00+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-04-22T16:01:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/tags/serialized/</loc>
-    <lastmod>2019-05-14T19:45:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-16/</loc>
-    <lastmod>2019-05-13T19:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-15/</loc>
-    <lastmod>2019-05-10T20:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-14/</loc>
-    <lastmod>2019-05-09T21:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-13/</loc>
-    <lastmod>2019-05-08T19:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-12/</loc>
-    <lastmod>2019-05-07T20:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-11/</loc>
-    <lastmod>2019-05-06T19:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-10/</loc>
-    <lastmod>2019-05-03T19:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-9/</loc>
-    <lastmod>2019-05-02T19:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-8/</loc>
-    <lastmod>2019-05-01T16:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-7/</loc>
-    <lastmod>2019-04-30T18:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-6/</loc>
-    <lastmod>2019-04-29T18:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-5/</loc>
-    <lastmod>2019-04-26T22:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-4/</loc>
-    <lastmod>2019-04-25T19:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-3/</loc>
-    <lastmod>2019-04-24T22:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-2/</loc>
-    <lastmod>2019-04-23T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie-scene-1/</loc>
     <lastmod>2019-04-22T16:01:00+02:00</lastmod>
   </url>
   
@@ -157,22 +80,14 @@
   <url>
     <loc>https://thiskurt.github.io/tags/ebook/</loc>
     <lastmod>2019-04-22T16:00:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thiskurt.github.io/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/contact/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <loc>https://thiskurt.github.io/tags/short-story/flash-fiction/</loc>
   </url>
   
   <url>
     <loc>https://thiskurt.github.io/topics/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

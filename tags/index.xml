@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on @thiskurt</title>
@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 Nov 2019 23:59:59 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 17:30:00 +0200</lastBuildDate>
     
 	<atom:link href="https://thiskurt.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Short Story/Flash Fiction</title>
-      <link>https://thiskurt.github.io/tags/short-story/flash-fiction/</link>
-      <pubDate>Fri, 01 Nov 2019 23:59:59 +0200</pubDate>
+      <title>The Fight</title>
+      <link>https://thiskurt.github.io/tags/the-fight/</link>
+      <pubDate>Sat, 09 Nov 2019 17:30:00 +0200</pubDate>
       
-      <guid>https://thiskurt.github.io/tags/short-story/flash-fiction/</guid>
+      <guid>https://thiskurt.github.io/tags/the-fight/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Local Royal Guards</title>
       <link>https://thiskurt.github.io/tags/local-royal-guards/</link>
-      <pubDate>Tue, 14 May 2019 19:45:00 +0200</pubDate>
+      <pubDate>Mon, 22 Apr 2019 16:01:00 +0200</pubDate>
       
       <guid>https://thiskurt.github.io/tags/local-royal-guards/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Ruritanian Lowlands</title>
       <link>https://thiskurt.github.io/tags/ruritanian-lowlands/</link>
-      <pubDate>Tue, 14 May 2019 19:45:00 +0200</pubDate>
+      <pubDate>Mon, 22 Apr 2019 16:01:00 +0200</pubDate>
       
       <guid>https://thiskurt.github.io/tags/ruritanian-lowlands/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Serialized</title>
       <link>https://thiskurt.github.io/tags/serialized/</link>
-      <pubDate>Tue, 14 May 2019 19:45:00 +0200</pubDate>
+      <pubDate>Mon, 22 Apr 2019 16:01:00 +0200</pubDate>
       
       <guid>https://thiskurt.github.io/tags/serialized/</guid>
       <description></description>
@@ -54,6 +54,15 @@
       <pubDate>Mon, 22 Apr 2019 16:00:00 +0200</pubDate>
       
       <guid>https://thiskurt.github.io/tags/ebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short Story/Flash Fiction</title>
+      <link>https://thiskurt.github.io/tags/short-story/flash-fiction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiskurt.github.io/tags/short-story/flash-fiction/</guid>
       <description></description>
     </item>
     
