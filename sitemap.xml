@@ -1,93 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://thiskurt.github.io/</loc>
-    <lastmod>2020-06-11T22:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://thiskurt.github.io/tags/mythology/</loc>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://thiskurt.github.io/post/</loc>
-    <lastmod>2020-06-11T22:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://thiskurt.github.io/tags/short-story/</loc>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://thiskurt.github.io/tags/</loc>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://thiskurt.github.io/post/thefierytree/</loc>
+    <lastmod>2022-02-17T16:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://thiskurt.github.io/post/bureauofreligioussacrifice/</loc>
     <lastmod>2020-06-11T22:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/tags/</loc>
-    <lastmod>2019-11-09T17:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/the-fight/</loc>
     <lastmod>2019-11-09T17:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/therematch/</loc>
     <lastmod>2019-11-09T17:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/allhallowseve/</loc>
     <lastmod>2019-11-01T23:59:59+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/thefight/</loc>
     <lastmod>2019-07-01T21:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/neverjudgeacookbyhisoven/</loc>
     <lastmod>2019-06-16T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/pictureofdorianbae/</loc>
     <lastmod>2019-06-03T01:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/lrg-letsleepingbeautieslie/</loc>
     <lastmod>2019-04-22T16:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/local-royal-guards/</loc>
     <lastmod>2019-04-22T16:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/ruritanian-lowlands/</loc>
     <lastmod>2019-04-22T16:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/serialized/</loc>
     <lastmod>2019-04-22T16:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/post/deathsdetective/</loc>
     <lastmod>2019-04-22T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/ebook/</loc>
     <lastmod>2019-04-22T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://thiskurt.github.io/categories/</loc>
+  </url><url>
     <loc>https://thiskurt.github.io/tags/short-story/flash-fiction/</loc>
   </url>
-  
-  <url>
-    <loc>https://thiskurt.github.io/topics/</loc>
-  </url>
-  
 </urlset>
