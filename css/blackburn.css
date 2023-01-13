@@ -1,9 +1,16 @@
+:root {
+  --menu_font: large;
+
+  --pink: #F31DAE;
+  --blue: #1AF4FE;
+}
+
 .header {
   font-family: "Raleway", Helvetica, Arial, sans-serif
 }
 
 a {
-  color: #F31DAE;/*#3b8bba;*/
+  color: var(--pink);
   text-decoration: none;
 }
 a:hover,
@@ -49,6 +56,7 @@ article > footer {
 
 #menu {
   overflow-y: visible;
+  font-size: var(--menu_font);
 }
 
 #menu a {

@@ -2,12 +2,16 @@
     --menu_width:      150px;
     --menu_width_neg: -150px;
 
-    --pink: #F31DAE;
-    --blue: #1AF4FE;
+    --pink:  #F31DAE;
+    --blue:  #1AF4FE;
+    --black: #191818;
+    --grey:  #777;
+    --white: #fff;
+    --blue2: #1f8dd6;
 }
 
 body {
-    color: #777;
+    color: var(--grey);
 }
 
 .pure-img-responsive {
@@ -15,22 +19,18 @@ body {
     height: auto;
 }
 
-/*
-Add transition to containers so they can push in and out.
-*/
+/* Add transition to containers so they can push in and out. */
 #layout,
 #menu,
 .menu-link {
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -moz-transition:    all 0.2s ease-out;
+    -ms-transition:     all 0.2s ease-out;
+    -o-transition:      all 0.2s ease-out;
+    transition:         all 0.2s ease-out;
 }
 
-/*
-This is the parent `<div>` that contains the menu and the content area.
-*/
+/* This is the parent `<div>` that contains the menu and the content area. */
 #layout {
     position: relative;
     left: 0;
@@ -59,7 +59,7 @@ This is the parent `<div>` that contains the menu and the content area.
      text-align: center;
      padding: 2em 2em 0;
      border-bottom: 1px solid #eee;
-     background-color: #191818;
+     background-color: var(--black);
  }
     .header h1 {
         margin: 0.2em 0;
@@ -72,7 +72,7 @@ This is the parent `<div>` that contains the menu and the content area.
         padding: 0;
         margin-top: 0;
         color: var(--pink);
-        /*background-color: #191818;*/
+        /*background-color: var(--black);*/
     }
 
 .content-subhead {
@@ -81,12 +81,8 @@ This is the parent `<div>` that contains the menu and the content area.
     color: #888;
 }
 
-
-
-/*
-The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
-appears on the left side of the page.
-*/
+/* The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu`
+that appears on the left side of the page. */
 
 #menu {
     margin-left: var(--menu_width_neg); /* "#menu" width */
@@ -96,13 +92,12 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818; /* Original/My Color */
+    background: var(--black);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
     /* All anchors inside the menu should be styled like this. */
-    /* Custom Color */
-    /* Alternating Blue and Pink colors attempt */
+    /* Alternating Blue and Pink colours attempt */
     #menu a {
         color: var(--blue);
         border: none;
@@ -133,31 +128,26 @@ appears on the left side of the page.
     /* This styles the selected menu item `<li>`. */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        background: var(--blue2);
     }
         /* This styles a link within a selected menu item `<li>`. */
         #menu .pure-menu-selected a {
-            color: #fff;
+            color: var(--white);
         }
 
     /* This styles the menu heading. */
     #menu .pure-menu-heading {
         font-size: 110%;
-        color: #fff;
+        color: var(--white);
         margin: 0;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
 
-/*
-The button to open/close the Menu is custom-made and not part of Pure. Here's
-how it works:
-*/
+/* The button to open/close the Menu is custom-made and not part of Pure. Here's
+how it works: */
 
-/*
-`.menu-link` represents the responsive menu toggle that shows/hides on
-small screens.
-*/
+/* `.menu-link` represents the responsive menu toggle that shows/hides on small screens. */
 .menu-link {
     position: fixed;
     display: block; /* show this only on small screens */
@@ -185,7 +175,7 @@ small screens.
     .menu-link span,
     .menu-link span:before,
     .menu-link span:after {
-        background-color: #fff;
+        background-color: var(--white);
         width: 100%;
         height: 0.2em;
     }
