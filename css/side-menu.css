@@ -1,11 +1,14 @@
 :root {
-    --menu_width:      150px;
+    --menu_width:      200px;
     --menu_width_neg: -150px;
+
+    --header_padding: .5em;
 
     --pink:  #F31DAE;
     --blue:  #1AF4FE;
     --black: #191818;
     --grey:  #777;
+    --grey2: #333;
     --white: #fff;
     --blue2: #1f8dd6;
 }
@@ -55,9 +58,9 @@ body {
 
 .header {
      margin: 0;
-     color: #333;
+     color: var(--grey2);
      text-align: center;
-     padding: 2em 2em 0;
+     padding: var(--header_padding);
      border-bottom: 1px solid #eee;
      background-color: var(--black);
  }
@@ -117,12 +120,12 @@ that appears on the left side of the page. */
     /* Add that light border to separate items into groups. */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
-        border-top: 1px solid #333;
+        border-top: 1px solid var(--grey2);
     }
         /* Change color of the anchor links on hover/focus. */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #333;
+            background: var(--grey2);
         }
 
     /* This styles the selected menu item `<li>`. */
@@ -153,8 +156,7 @@ how it works: */
     display: block; /* show this only on small screens */
     top: 0;
     left: 0; /* "#menu width" */
-    background: #000;
-    background: rgba(0,0,0,0.7);
+    background: var(--black);
     font-size: 10px; /* change this value to increase/decrease button size */
     z-index: 10;
     width: 2em;
