@@ -1,3 +1,11 @@
+:root {
+    --menu_width:      150px;
+    --menu_width_neg: -150px;
+
+    --pink: #F31DAE;
+    --blue: #1AF4FE;
+}
+
 body {
     color: #777;
 }
@@ -29,16 +37,14 @@ This is the parent `<div>` that contains the menu and the content area.
     padding-left: 0;
 }
     #layout.active #menu {
-        left: 150px;
-        width: 150px;
+        left:  var(--menu_width);
+        width: var(--menu_width);
     }
 
     #layout.active .menu-link {
-        left: 150px;
+        left: var(--menu_width);
     }
-/*
-The content `<div>` is where all your content goes.
-*/
+/* The content `<div>` is where all your content goes. */
 .content {
     margin: 0 auto;
     padding: 0 2em;
@@ -59,16 +65,13 @@ The content `<div>` is where all your content goes.
         margin: 0.2em 0;
         font-size: 3em;
         font-weight: 300;
-        color: #1AF4FE;
+        color: var(--blue);
     }
-    /*.header h1::first-letter{
-        color: #F31DAE;
-    }*/
-     .header h2 {
+    .header h2 {
         font-weight: 300;
         padding: 0;
         margin-top: 0;
-        color: #F31DAE;
+        color: var(--pink);
         /*background-color: #191818;*/
     }
 
@@ -86,8 +89,8 @@ appears on the left side of the page.
 */
 
 #menu {
-    margin-left: -150px; /* "#menu" width */
-    width: 150px;
+    margin-left: var(--menu_width_neg); /* "#menu" width */
+    width: var(--menu_width);
     position: fixed;
     top: 0;
     left: 0;
@@ -97,63 +100,47 @@ appears on the left side of the page.
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
-    /*
-    All anchors inside the menu should be styled like this.
-    */
-    /* Happy Accident */
+    /* All anchors inside the menu should be styled like this. */
     /* Custom Color */
+    /* Alternating Blue and Pink colors attempt */
     #menu a {
-        color: #1AF4FE;
+        color: var(--blue);
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
-
-    /* Alternating Blue and Pink colors attempt */
     #menu a :nth-child(odd) {
-        color: #F31DAE;
+        color: var(--pink);
     }
 
-    /*
-    Remove all background/borders, since we are applying them to #menu.
-    */
+    /* Remove all background/borders, since we are applying them to #menu. */
      #menu .pure-menu,
      #menu .pure-menu ul {
         border: none;
         background: transparent;
     }
 
-    /*
-    Add that light border to separate items into groups.
-    */
+    /* Add that light border to separate items into groups. */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
-        /*
-        Change color of the anchor links on hover/focus.
-        */
+        /* Change color of the anchor links on hover/focus. */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
             background: #333;
         }
 
-    /*
-    This styles the selected menu item `<li>`.
-    */
+    /* This styles the selected menu item `<li>`. */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
         background: #1f8dd6;
     }
-        /*
-        This styles a link within a selected menu item `<li>`.
-        */
+        /* This styles a link within a selected menu item `<li>`. */
         #menu .pure-menu-selected a {
             color: #fff;
         }
 
-    /*
-    This styles the menu heading.
-    */
+    /* This styles the menu heading. */
     #menu .pure-menu-heading {
         font-size: 110%;
         color: #fff;
@@ -217,9 +204,7 @@ small screens.
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
-/*
-Hides the menu at `48em`, but modify this based on your app's needs.
-*/
+/* Hides the menu at `48em`, but modify this based on your app's needs. */
 @media (min-width: 48em) {
 
     .header,
@@ -229,7 +214,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 
     #layout {
-        padding-left: 150px; /* left col width "#menu" */
+        padding-left: var(--menu_width); /* left col width "#menu" */
         left: 0;
     }
     #menu {
@@ -238,12 +223,12 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 
     .menu-link {
         position: fixed;
-        left: 150px;
+        left: var(--menu_width);
         display: none;
     }
 
     #layout.active .menu-link {
-        left: 150px;
+        left: var(--menu_width);
     }
 }
 
@@ -256,6 +241,6 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     */
     #layout.active {
         position: relative;
-        left: 150px;
+        left: var(--menu_width);
     }
 }
