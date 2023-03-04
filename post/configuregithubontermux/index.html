@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A brief howto connect to GitHub using git on Termux">
+  <meta name="generator" content="Hugo 0.110.0">
+
+  <title>Configure GitHub on Termux &middot; @thiskurt</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://thiskurt.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://thiskurt.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://thiskurt.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="https://thiskurt.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://thiskurt.github.io/">@thiskurt</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://thiskurt.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://thiskurt.github.io/tags/serialized/"><i class='fa fa-bookmark fa-fw'></i>Serialized</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://thiskurt.github.io/tags/ebook/"><i class='fa fa-book fa-fw'></i>eBooks</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://thiskurt.github.io/tags/short-story/flash-fiction/"><i class='fa fa-bolt fa-fw'></i>Short Stories</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://thiskurt.github.io/post/"><i class='fa fa-list fa-fw'></i>All Posts</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+    
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://social.thiskurt.me/@kurt" rel="me" target="_blank"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/thiskurt" rel="me" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/kurt_ig" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://youtube.com/user/https://www.youtube.com/@thiskurt" rel="me" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+    </li>
+    
+
+    
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/thiskurt" rel="me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+    
+    
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2019 - 2023</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/"
+      target="_blank">Hugo</a></small><br />
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn"
+      target="_blank">Blackburn</a></small><br />
+    <small>Favicon&nbsp;<a href="https://github.com/mozilla/fxemoji/blob/gh-pages/LICENSE.md"
+      target="_blank">FxEmojis</a></small><br />
+    <small>Icons&nbsp;<a href="http://fontawesome.io"
+      target="_blank">Fontawesome</a></small><br /> 
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Configure GitHub on Termux</h1>
+  <h2>A brief howto connect to GitHub using git on Termux</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Mar 2023, 23:40</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://thiskurt.github.io/tags/tech/howto">Tech/Howto</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <h2 id="install-termux">Install Termux</h2>
+<p>Install termux via the f-droid store, the Google Play store has a version of Termux too, but that one is outdated, use f-droid or the <a href="https://github.com/termux/termux-app/releases">github repository releases</a> to install the latest version.</p>
+<h2 id="install-git-and-openssh">Install Git and openssh</h2>
+<ol>
+<li>Run the following command to update and upgrade all existing software:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt update <span style="color:#ff79c6">&amp;&amp;</span> apt upgrade
+</span></span></code></pre></div><ol start="2">
+<li>Install git and openssh</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt install git openssh
+</span></span></code></pre></div><h2 id="give-termux-access-to-the-local-storage">Give Termux access to the local storage</h2>
+<p>You&rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>termux-setup-storage
+</span></span></code></pre></div><h2 id="generate-an-ssh-key">Generate an ssh key</h2>
+<p>Generate the ssh key with the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen -t rsa -C <span style="color:#f1fa8c">&#34;EMAIL&#34;</span>
+</span></span></code></pre></div><p>Where the <code>EMAIL</code> is the email associated with your github user account.</p>
+<p>I had to leave everything blank, don&rsquo;t provide a keyfile name and don&rsquo;t provide a passphrase. This may not be strictly necessary, but it failed to use the file correctly when I gave it a specific name.</p>
+<h2 id="upload-your-ssh-key-on-githubcom">Upload your ssh key on GitHub.com</h2>
+<ol>
+<li>Get the content of your public key with this command, and copy the output:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub
+</span></span></code></pre></div><ol start="2">
+<li>Login to GitHub and go to <code>Settings</code> &gt; <code>SSH and GPG Keys</code> and add a new SSH key as an Authentication key with the content of your public ssh key.</li>
+</ol>
+<h2 id="authenticating-with-github">Authenticating with GitHub</h2>
+<p>Login to GitHub using your ssh key with this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -T git@github.com
+</span></span></code></pre></div><p>Or if you want a more verbose output to see any potential errors use this one instead:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -vT git@github.com
+</span></span></code></pre></div><h2 id="fix-github-does-not-provide-shell-access">Fix &lsquo;GitHub does not provide shell access&rsquo;</h2>
+<p>I kept getting this error:</p>
+<pre tabindex="0"><code>Hi USER! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+</code></pre><p>An was not able to successfully execute any git commands, either getting that error above or being asked to preform a, deprecated, password authentication that would naturally fail.</p>
+<p>In order to fix this you have to force it to use an SSH connection for github rather than a standard https one that it seems to insist on using.</p>
+<p>Add this to the <code>~/.gitconfig</code> file to use ssh instead of https for github.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#ff79c6">[url &#34;ssh://git@github.com/&#34;]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">insteadOf</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">https://github.com/</span>
+</span></span></code></pre></div>
+
+</div>
+
+</div>
+</div>
+<script src="https://thiskurt.github.io/js/ui.js"></script>
+<script src="https://thiskurt.github.io/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

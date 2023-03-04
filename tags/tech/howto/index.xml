@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech/Howto on @thiskurt</title>
+    <link>https://thiskurt.github.io/tags/tech/howto/</link>
+    <description>Recent content in Tech/Howto on @thiskurt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - 2023</copyright><atom:link href="https://thiskurt.github.io/tags/tech/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure GitHub on Termux</title>
+      <link>https://thiskurt.github.io/post/configuregithubontermux/</link>
+      <pubDate>Sat, 04 Mar 2023 23:40:00 +0200</pubDate>
+      
+      <guid>https://thiskurt.github.io/post/configuregithubontermux/</guid>
+      <description>Install Termux Install termux via the f-droid store, the Google Play store has a version of Termux too, but that one is outdated, use f-droid or the github repository releases to install the latest version.
+Install Git and openssh Run the following command to update and upgrade all existing software: apt update &amp;amp;&amp;amp; apt upgrade Install git and openssh apt install git openssh Give Termux access to the local storage You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</description>
+    </item>
+    
+  </channel>
+</rss>
