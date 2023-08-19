@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"type": "photo",
-	"width": 240,
-	"height": 240,
+	"width": 500,
+	"height": 500,
 	"title": "Astrokurt",
 	"url": "astrokurt-final.png",
 	"author_name": "thiskurt",
