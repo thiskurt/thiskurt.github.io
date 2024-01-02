@@ -14,7 +14,7 @@
       
       <guid>https://thiskurt.github.io/post/configuregithubontermux/</guid>
       <description>Install Termux Install termux via the f-droid store, the Google Play store has a version of Termux too, but that one is outdated, use f-droid or the github repository releases to install the latest version.
-Install Git and openssh Run the following command to update and upgrade all existing software: apt update &amp;amp;&amp;amp; apt upgrade Install git and openssh apt install git openssh Give Termux access to the local storage You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</description>
+Install Git and openssh  Run the following command to update and upgrade all existing software:  apt update &amp;amp;&amp;amp; apt upgrade Install git and openssh  apt install git openssh Give Termux access to the local storage You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</description>
     </item>
     
   </channel>
