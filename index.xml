@@ -16,7 +16,7 @@
       <guid>https://thiskurt.github.io/post/everymovie2023/</guid>
       <description>In 2023 I watched a measly 12 movies. That&amp;rsquo;s not a lot, but one benefit of that is that it means I can quite easily write up a quick review for each of them from memory.
 All of these reviews are crossposted on my letterboxd.
- 1. All My Friends Hate Me This is Social Anxiety: the Horror Movie.
+1. All My Friends Hate Me This is Social Anxiety: the Horror Movie.
 Is it actually a horror movie? Yes, but no. Is it a comedy?</description>
     </item>
     
@@ -27,7 +27,7 @@ Is it actually a horror movie? Yes, but no. Is it a comedy?</description>
       
       <guid>https://thiskurt.github.io/post/configuregithubontermux/</guid>
       <description>Install Termux Install termux via the f-droid store, the Google Play store has a version of Termux too, but that one is outdated, use f-droid or the github repository releases to install the latest version.
-Install Git and openssh  Run the following command to update and upgrade all existing software:  apt update &amp;amp;&amp;amp; apt upgrade Install git and openssh  apt install git openssh Give Termux access to the local storage You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</description>
+Install Git and openssh Run the following command to update and upgrade all existing software: apt update &amp;amp;&amp;amp; apt upgrade Install git and openssh apt install git openssh Give Termux access to the local storage You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:</description>
     </item>
     
     <item>
