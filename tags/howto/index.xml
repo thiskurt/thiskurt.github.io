@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto on @thiskurt</title>
+    <link>https://thiskurt.github.io/tags/howto/</link>
+    <description>Recent content in Howto on @thiskurt</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - 2023</copyright>
+    <lastBuildDate>Sat, 04 Mar 2023 23:40:00 +0200</lastBuildDate>
+    <atom:link href="https://thiskurt.github.io/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure GitHub on Termux</title>
+      <link>https://thiskurt.github.io/post/configuregithubontermux/</link>
+      <pubDate>Sat, 04 Mar 2023 23:40:00 +0200</pubDate>
+      <guid>https://thiskurt.github.io/post/configuregithubontermux/</guid>
+      <description>&lt;h2 id=&#34;install-termux&#34;&gt;Install Termux&lt;/h2&gt;&#xA;&lt;p&gt;Install termux via the f-droid store, the Google Play store has a version of Termux too, but that one is outdated, use f-droid or the &lt;a href=&#34;https://github.com/termux/termux-app/releases&#34;&gt;github repository releases&lt;/a&gt; to install the latest version.&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-git-and-openssh&#34;&gt;Install Git and openssh&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Run the following command to update and upgrade all existing software:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt update &lt;span style=&#34;color:#ff79c6&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt upgrade&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Install git and openssh&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt install git openssh&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;give-termux-access-to-the-local-storage&#34;&gt;Give Termux access to the local storage&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll probably want Termux to have access to the storage of your android device, in order to do that simply use the following command:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

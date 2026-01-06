@@ -24,17 +24,10 @@
       <description></description>
     </item>
     <item>
-      <title>Review</title>
-      <link>https://thiskurt.github.io/tags/review/</link>
-      <pubDate>Tue, 02 Jan 2024 14:30:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech/Howto</title>
-      <link>https://thiskurt.github.io/tags/tech/howto/</link>
+      <title>Howto</title>
+      <link>https://thiskurt.github.io/tags/howto/</link>
       <pubDate>Sat, 04 Mar 2023 23:40:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/tech/howto/</guid>
+      <guid>https://thiskurt.github.io/tags/howto/</guid>
       <description></description>
     </item>
     <item>
@@ -42,6 +35,13 @@
       <link>https://thiskurt.github.io/tags/ai-content/</link>
       <pubDate>Thu, 02 Feb 2023 23:50:00 +0200</pubDate>
       <guid>https://thiskurt.github.io/tags/ai-content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fiction</title>
+      <link>https://thiskurt.github.io/tags/fiction/</link>
+      <pubDate>Thu, 02 Feb 2023 23:50:00 +0200</pubDate>
+      <guid>https://thiskurt.github.io/tags/fiction/</guid>
       <description></description>
     </item>
     <item>
@@ -56,34 +56,6 @@
       <link>https://thiskurt.github.io/tags/fiction/screenplay/</link>
       <pubDate>Thu, 02 Feb 2023 23:50:00 +0200</pubDate>
       <guid>https://thiskurt.github.io/tags/fiction/screenplay/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mythology</title>
-      <link>https://thiskurt.github.io/tags/mythology/</link>
-      <pubDate>Thu, 17 Feb 2022 16:00:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/mythology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Short Story</title>
-      <link>https://thiskurt.github.io/tags/short-story/</link>
-      <pubDate>Thu, 17 Feb 2022 16:00:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/short-story/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Short Story/Flash Fiction</title>
-      <link>https://thiskurt.github.io/tags/short-story/flash-fiction/</link>
-      <pubDate>Thu, 11 Jun 2020 22:15:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/short-story/flash-fiction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Fight</title>
-      <link>https://thiskurt.github.io/tags/the-fight/</link>
-      <pubDate>Mon, 01 Jul 2019 21:00:00 +0200</pubDate>
-      <guid>https://thiskurt.github.io/tags/the-fight/</guid>
       <description></description>
     </item>
   </channel>
